@@ -40,7 +40,13 @@ public class Calculate {
 	
 	public static double discriminant(double a, double b, double c) {
 		double answer6;
-		answer6=55.55;
+		answer6=(b*b)-4*a*c;
 		return(answer6);
 	}	
+	public static int toImproperFrac(int a, int b, int c) {
+		int answer7;
+		answer7=("((a*c)+b))" "/" "c");
+		return(answer7);
+	}
+	
 }
