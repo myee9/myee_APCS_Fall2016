@@ -1,6 +1,6 @@
 
 public class DoMath {
 	public static void main(String[]args) {  
-		Calculate.square(9);
+		print.out.ln(Calculate.toMixedNum(7,2))
 	}
 }	
