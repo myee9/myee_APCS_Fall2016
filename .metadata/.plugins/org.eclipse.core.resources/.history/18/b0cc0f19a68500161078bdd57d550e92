@@ -1,0 +1,6 @@
+
+public class DoMath {
+	public static void main(String[]args) {  
+		System.out.println(Calculate.average(21.0, 4.0, 2));
+	}
+}	

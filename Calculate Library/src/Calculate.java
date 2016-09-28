@@ -12,9 +12,9 @@ public class Calculate {
 		answer=number*number;
 		return(answer);
 	}		
-	public static int cube(int n1,int n2,int n3) {
+	public static int cube(int number) {
 		int answer1;
-		answer1=n1*n2*n3;
+		answer1=number*number*number;
 		return(answer1); 
 	}	
 	public static double average(double n1, double n2, double numbers) {
@@ -45,12 +45,12 @@ public class Calculate {
 	}	
 	public static String toImproperFrac(int a, int b, int c) {
 		String answer7;
-		answer7=("((a*c)+b))" + "/" + "c");
+		answer7=(a*c) + b + "/" + c;
 		return(answer7);
 	}
 	public static String toMixedNum(int a, int b) {
 		String answer8;
-		answer8=("a/b" + "a%b");
+		answer8=(a/b + "_" + a%b + "/" + b);
 		return(answer8);
 	}
 	public static String foil(int a, int b, int c, int d, String x) {
@@ -58,8 +58,8 @@ public class Calculate {
 		answer9=(
 		
 	}
-	public static boolean isDivisibleBy(int a, int b) {
-		boolean answer10;
+	public static void isDivisibleBy(int a, int b) {
+		
 		
 	}
 }

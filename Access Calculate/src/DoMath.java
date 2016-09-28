@@ -1,6 +1,6 @@
 
 public class DoMath {
 	public static void main(String[]args) {  
-		print.out.ln(Calculate.toMixedNum(7,2))
+		System.out.println(Calculate.toImproperFrac(7,2,9));
 	}
 }	
