@@ -84,8 +84,4 @@ public class Calculate {
 		else
 			return(b);
 		}
-	}
-	
-	public static double maxOverlaod(double a, double b, double c) {
-		
-	}
+}

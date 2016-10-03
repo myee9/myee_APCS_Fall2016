@@ -1,6 +1,6 @@
 
 public class DoMath {
 	public static void main(String[]args) {  
-		print.out.ln(Calculate.toMixedNum(7,2))
+		System.out.println(Calculate.absValue(-6.7));
 	}
 }	
