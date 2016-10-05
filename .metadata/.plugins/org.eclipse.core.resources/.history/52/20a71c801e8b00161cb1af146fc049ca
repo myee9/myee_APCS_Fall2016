@@ -55,11 +55,63 @@ public class Calculate {
 	}
 	public static String foil(int a, int b, int c, int d, String x) {
 		String answer9;
-		answer9=(
+		answer9=(a*c + "x^2" + a*d + b*c + "x" + b*d); 
 		
 	}
-	public static void isDivisibleBy(int a, int b) {
-		
+	public static boolean isDivisibleBy(int a, int b) {
+		if(a%b==0) {
+			return(true);
+		}
+		else {
+			return(false);
+		}
+	
+	}
+	
+	public static double absValue(double n) {
+		if(n>0) {
+			return(n);
+		}
+		else{
+			return(n*-1);
+		}
+	}
+	
+	public static int max(int a, int b) {
+		if(a>b) {
+			return(a);
+		}
+		else
+			return(b);
+		}
+	
+	public static double max(double a, double b, double c) {
+		double maxnumber=0;
+		if(a>maxnumber) {
+			maxnumber=a;
+		}
+		if(b>maxnumber) {
+			maxnumber=b;
+		}
+		if(c>maxnumber) {
+			maxnumber=c;
+		}
+		return(maxnumber);
+	}
+	
+	public static int min(int a, int b){
+		if(a<b) {
+			return(a);
+		}
+		else
+			return(b);
+		}
+	}
+	
+	public static double round2(double a) {
 		
 	}
+	
+	public static double exponent(double a, int b) {
+		
 }

@@ -13,45 +13,45 @@ public class Calculate {
 		return(answer);
 	}		
 	public static int cube(int number) {
-		int answer;
-		answer=number*number*number;
-		return(answer); 
+		int answer1;
+		answer1=number*number*number;
+		return(answer1); 
 	}	
 	public static double average(double n1, double n2, double numbers) {
-		double answer;
-		answer=(n1+n2)/numbers;
-		return(answer);
+		double answer2;
+		answer2=(n1+n2)/numbers;
+		return(answer2);
 	}
 	public static double average(double n1, double n2, double n3, double numbers) {
-		double answer;
-		answer=(n1+n2+n3)/numbers;
-		return(answer);
+		double answer3;
+		answer3=(n1+n2+n3)/numbers;
+		return(answer3);
 	}
 	public static double toDegrees(double number) {
-		double answer;
-		answer=(number*(180/3.14159));
-		return(answer);
+		double answer4;
+		answer4=(number*(180/3.14159));
+		return(answer4);
 	}
 	public static double toRadians(double number) {
-		double answer;
-		answer=(number*(3.14159/180.0)); 
-		return(answer);
+		double answer5;
+		answer5=(number*(3.14159/180.0)); 
+		return(answer5);
 	}
 	
 	public static double discriminant(double a, double b, double c) {
-		double answer;
-		answer=(b*b)-4*a*c;
-		return(answer);
+		double answer6;
+		answer6=(b*b)-4*a*c;
+		return(answer6);
 	}	
 	public static String toImproperFrac(int a, int b, int c) {
-		String answer;
-		answer=(a*c) + b + "/" + c;
-		return(answer);
+		String answer7;
+		answer7=(a*c) + b + "/" + c;
+		return(answer7);
 	}
 	public static String toMixedNum(int a, int b) {
-		String answer;
-		answer=(a/b + "_" + a%b + "/" + b);
-		return(answer);
+		String answer8;
+		answer8=(a/b + "_" + a%b + "/" + b);
+		return(answer8);
 	}
 	public static String foil(int a, int b, int c, int d, String x) {
 		String answer9;
@@ -112,9 +112,6 @@ public class Calculate {
 		numberrounded=numberrounded + 0.5;
 		numberrounded=(int)numberrounded;
 		return(numberrounded/100);
-	}
-	
-	public static double exponent(double a, int b) {
-		
+		 
 	}
 }

@@ -1,6 +1,6 @@
 
 public class DoMath {
 	public static void main(String[]args) {  
-		System.out.println(Calculate.average(10.0, 2.0, 2.0));
+		System.out.println(Calculate.max(100.0,27.6,34.4));
 	}
 }	
