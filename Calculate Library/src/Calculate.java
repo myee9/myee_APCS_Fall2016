@@ -117,4 +117,12 @@ public class Calculate {
 	public static double exponent(double a, int b) {
 		
 	}
+	public static boolean isPrime(int a) {
+		if(x%2==0);
+		return(false);
+			for(int)
+		
+		
+	}
+	
 }
