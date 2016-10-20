@@ -133,7 +133,7 @@ public class Calculate {
 	}
 	
 	public static boolean isPrime(int number) {
-		
+		isDivisibleBy(number,2);
 		
 	}
 	

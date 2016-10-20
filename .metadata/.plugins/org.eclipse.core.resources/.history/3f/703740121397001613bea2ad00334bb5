@@ -131,18 +131,6 @@ public class Calculate {
 		}
 		return(answer);
 	}
-	
-	public static boolean isPrime(int number) {
-		
-		
-	}
-	
-	public static int gcf(int numberone, int numbertwo) {
-		
-	}
-	
-	public static double sqrt(double value) {
-		
-	}
+
 	
 }

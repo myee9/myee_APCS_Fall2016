@@ -127,22 +127,13 @@ public class Calculate {
 	public static int factorial(int value) {
 		int answer=1;
 		for(int v=1; v<=value; v++) {
-			answer=answer*v;
+			answer=answer*value;
 		}
 		return(answer);
 	}
-	
-	public static boolean isPrime(int number) {
-		
-		
+
+		}
 	}
-	
-	public static int gcf(int numberone, int numbertwo) {
-		
-	}
-	
-	public static double sqrt(double value) {
-		
-	}
+
 	
 }
