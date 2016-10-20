@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;numberrounded&apos; in &apos;Calculate.round2(...)&apos; to &apos;roundingnumber&apos;&#x0D;&#x0A;- Original project: &apos;Calculate Library&apos;&#x0D;&#x0A;- Original element: &apos;Calculate.round2(double).numberrounded&apos;&#x0D;&#x0A;- Renamed element: &apos;numberrounded&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;numberrounded&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Calculate.java[Calculate~round2~D@numberrounded!2128!2154!2135!2147!D!0!false" name="roundingnumber" references="true" stamp="1476981846500" version="1.0"/>
+</session>

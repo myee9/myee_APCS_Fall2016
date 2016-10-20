@@ -56,7 +56,7 @@ public class Calculate {
 	public static String foil(int a, int b, int c, int d, String x) {
 		String answer9;
 		answer9=(a*c + "x^2" + a*d + b*c + "x" + b*d); 
-		//fixme
+		
 	}
 	public static boolean isDivisibleBy(int a, int b) {
 		if(a%b==0) {
@@ -115,9 +115,14 @@ public class Calculate {
 	}
 	
 	public static double exponent(double a, int b) {
-		for(double a=1; )
 		
 	}
-
+	public static boolean isPrime(int a) {
+		if(x%2==0);
+		return(false);
+			for(int)
+		
+		
+	}
 	
 }
