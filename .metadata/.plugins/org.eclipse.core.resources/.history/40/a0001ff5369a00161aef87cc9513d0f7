@@ -133,11 +133,10 @@ public class Calculate {
 	}
 	
 	public static boolean isPrime(int number) {
-		for(int i=2; i<number; i++) {
+		for(int i=2; i<number-1; i++) {
 			isDivisibleBy(number,i);
-		if(number%i==0) {
-			return true;
 		}
+		return true;
 	}
 	
 	public static int gcf(int numberone, int numbertwo) {

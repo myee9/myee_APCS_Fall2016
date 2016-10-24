@@ -138,6 +138,8 @@ public class Calculate {
 		if(number%i==0) {
 			return true;
 		}
+		}
+		return false;
 	}
 	
 	public static int gcf(int numberone, int numbertwo) {
