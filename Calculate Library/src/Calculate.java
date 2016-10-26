@@ -54,9 +54,9 @@ public class Calculate {
 		return(answer);
 	}
 	public static String foil(int a, int b, int c, int d, String x) {
-		String answer9;
-		answer9=(a*c + "x^2" + a*d + b*c + "x" + b*d); 
-		//fixme
+		String foil;
+		foil=((a*c + x +"^2") + " " +(a*d + b*c )+ x + " " + (b*d)); 
+		return(foil);
 	}
 	public static boolean isDivisibleBy(int divisor, int dividend) {
 		if(divisor%dividend==0) {
@@ -134,14 +134,18 @@ public class Calculate {
 	
 	public static boolean isPrime(int number) {
 		for(int i=2; i<number; i++) {
-			isDivisibleBy(number,i);
-		if(number%i==0) {
-			return true;
+			while((Calculate.isDivisibleBy(number,i)==true)) {
+				return false;
+			}
 		}
+		return true;
 	}
 	
 	public static int gcf(int numberone, int numbertwo) {
-		
+		int largernumber=Calculate.max(numberone, numbertwo);
+		for(int a=1; a<=largernumber; a++) {
+			
+		}
 	}
 	
 	public static double sqrt(double value) {

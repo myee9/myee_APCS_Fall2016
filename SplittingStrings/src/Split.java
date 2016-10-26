@@ -1,9 +1,14 @@
+import java.util.Arrays;
+
 public class Split {
 
 	public static void main(String[] args) {
-		public static String splitter(String word) {
-			"I scream for ice cream"split(" ");
-		}
+	String s= "I scream for ice cream";
+	String[] f= s.split("scream");
+	System.out.print(Arrays.toString(f)); 
+	
+	
+
 		//String.split();
 		//It's a method that acts on a string, <StringName>.split(<String sp>);
 		//Where sp is the string where the string splits
