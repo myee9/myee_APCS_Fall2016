@@ -145,7 +145,7 @@ public class Calculate {
 		int largernumber=Calculate.max(numberone, numbertwo);
 		int smallernumber=Calculate.min(numberone, numbertwo);
 		for(int a=1; a<=smallernumber; smallernumber--) {
-			while(Calculate.isDivisibleBy(, dividend))
+			
 		}
 	}
 	
