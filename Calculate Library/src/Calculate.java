@@ -144,11 +144,20 @@ public class Calculate {
 	public static int gcf(int numberone, int numbertwo) {
 		int largernumber=Calculate.max(numberone, numbertwo);
 		int smallernumber=Calculate.min(numberone, numbertwo);
-		for(int a=1; a<=smallernumber; smallernumber--) {
-			while(Calculate.isDivisibleBy(, dividend))
+		for(int a=1; a<=smallernumber; a++) {
+			while(Calculate.isDivisibleBy(a, smallernumber)==true) {
+				return a;
+			}
+		for(int b=1; b<=largernumber;b++) {
+			while(Calculate.isDivisibleBy(a, largernumber)==true) {
+				return b;
+			}
+		if(a==b) {
+			return a;
 		}
-	}
-	
+		}
+		}
+}
 	public static double sqrt(double value) {
 		
 	}
