@@ -16,6 +16,9 @@ public class ArraysLab3
 		assert (arr2.length > 0);
 		assert (arr1.length == arr2.length);
 		
+		for(int i=0;i<8;i++) {
+			arr3[i] = arr1[i] + arr2[i];
+		}
 	}
 	
 	/*
@@ -93,6 +96,7 @@ public class ArraysLab3
 	{
 		int[] a1 = {5, 10, 15, 20, 25, 30, 35, 40};
 		int[] a2 = {7, 14, 21, 28, 35, 42, 49, 56};
+		int[] a3 = new int[8];
 		int num=200;
 		int idx=5;
 	}
